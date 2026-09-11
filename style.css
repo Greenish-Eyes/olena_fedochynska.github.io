@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gabriola', sans-serif;
   margin: 0;
   scroll-behavior: smooth;
-  background: #230431;
+  background: #170021;
   color: white;
 }
 
@@ -10,7 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background: #230038;
+  background: #190226;
 }
 
 nav ul {
@@ -30,7 +30,7 @@ nav a {
 }
 
 .btn {
-  background: #4b028e;
+  background: #b444ff;
   padding: 10px 20px;
   color: black;
   text-decoration: none;
@@ -42,7 +42,7 @@ section {
 }
 
 .card {
-  background: #1e293b;
+  background: #e6a8ff73;
   padding: 20px;
   margin: 10px 0;
   border-radius: 10px;
@@ -55,7 +55,7 @@ input, textarea {
 }
 
 button {
-  background: #ab38f8;
+  background: #b444ff;
   border: none;
   padding: 10px;
 }
