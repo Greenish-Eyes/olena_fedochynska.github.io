@@ -28,6 +28,16 @@ nav a {
   font-size: 18px;
 }
 
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 25px;
+  border: 4px solid #a238f8;
+}
+
 .hero h1 {
   align-items: center;
   text-align: center;
@@ -44,10 +54,8 @@ nav a {
 
 .btn {
   text-align: center;
-  
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column-reverse;
   background: #b444ff;
   padding: 10px 20px;
   color: black;
