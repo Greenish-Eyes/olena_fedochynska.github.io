@@ -3,120 +3,210 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olena Fedochynska | Portfolio</title>
+  <title>Olena Fedochynska | Computer Science Student</title>
+  <meta name="description" content="Portfolio of Olena Fedochynska, a Computer Science student at Farmingdale State College building software in Java, Python, and React.">
+  <meta name="theme-color" content="#14091f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav>
-  <h2>Olena</h2>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+<a class="skip" href="#main">Skip to content</a>
 
-<!-- HERO -->
-<section id="home" class="hero">
-
-   <img 
-    src="images/olena.jpg" 
-    alt="Olena Fedochynska"
-    class="profile-photo"
-  >
-
-  <h1>Hi, I'm Olena</h1>
-  <p>Computer Science Student</p>
-  <a href="#projects" class="btn">View My Work</a>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    As a student of Computer Science, I am very interested in learning programming, technology, and problem solving. I like to know how systems operate and use my knowledge in creating real-world projects and enhancing my technical competence.
-
-    My experience is presently being built up by undertaking coursework and personal projects that reinforce my knowledge in the area of programming, networking, and software development. I am driven by lifelong learning and like solving complicated problems that would need critical thinking and innovation.
-
-    I was born in Ukraine but moved because of the war and still pursued my education, combining work and school. This experience has enhanced my determination, flexibility, and dedication to personal and professional development.
-
-    I would like the possibility to use my technical knowledge in practice, keep learning new things, and work on the projects that have a purpose.
-  </p>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="card">
-    <h3>BMI Calculator</h3>
-    <p>Developed a fully interactive BMI Calculator using Java, JavaFX, and FXML.</p>
-    <p>Designed the user interface, including form inputs, radio buttons, and calculation logic.</p>
-    <p>Implemented BMI computation for multiple measurement systems (kg/m and lb/ft).</p>
-    <p>Performed debugging, testing, and UI refinements to ensure accurate and user-friendly functionality.</p>
-    <p><strong>Tech:</strong> Java, Requests</p>
-    <a href="https://github.com/Greenish-Eyes/BMIcalculator" target="_blank">GitHub</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#home">Olena Fedochynska</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </div>
+</header>
 
-  <div class="card">
-    <h3>Tips Calculator</h3>
-    <p>Developed a fully interactive Tips Calculator using Java, JavaFX, and FXML.</p>
-    <p>Designed the user interface, including form inputs, radio buttons, and calculation logic.</p>
-    <p>Implemented Tips computation for multiple scenarios (percentage and fixed amount).</p>
-    <p>Performed debugging, testing, and UI refinements to ensure accurate and user-friendly functionality.</p>
-    <p><strong>Tech:</strong> Java, Requests</p>
-    <a href="https://github.com/Greenish-Eyes/tipCalculatorProj" target="_blank">GitHub</a>
-  </div>
+<main id="main">
 
-</section>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="role">Computer Science student at Farmingdale State College</p>
+        <h1>Olena Fedochynska</h1>
+        <p class="lead">I build desktop and web software in Java, Python, and React, and I'm looking for a software development internship.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="Olena_Fedochynska_Resume.pdf" download>Download resume</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://github.com/Greenish-Eyes" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/olena-fedochynska/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <img class="portrait" src="images/olena.jpg" alt="Portrait of Olena Fedochynska" width="320" height="320">
+    </div>
+  </section>
 
-<!-- SKILLS -->
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Programming Languages: Python, Java, SQL</li>
-    <li>Operating Systems: Windows, Mac</li>
-    <li>Hard skills: Data Structures and Algorithms, Software Development Life Cycle (SDLC), Cloud computing, Business analysis, Agile, Continuous Integration and Continuous Deployment (CI/CD)</li>
-    <li>Software: Microsoft Office, Autodesk (AutoCAD, Revit, 3Ds Max, Maya), Femap, Adobe (Photoshop, Illustrator, InDesign, After Effects, Premiere Pro), Figma, InVision, Audacity</li>
-    <li>Soft Skills: Communication, Collaboration, Problem Solving, Critical Thinking, Enthusiastic, Leadership, Motivated, Teamwork</li>
-    <li>Languages: English,Ukrainian, Russian</li>
-  </ul>
-</section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap two-col">
+      <h2>About</h2>
+      <div class="prose">
+        <p>I'm a Computer Science student who likes understanding how systems work and then building something useful with that knowledge. My coursework covers data structures and algorithms, operating systems, databases, and user interface design, and I apply it in projects on GitHub.</p>
+        <p>I was born in Ukraine and continued my education in the United States after the war began, working while I studied. That experience taught me to adapt quickly, manage my time, and keep going on long projects.</p>
+        <p>I'm looking for opportunities to apply my technical skills on a real team, keep learning, and work on projects with a purpose.</p>
+      </div>
+    </div>
+  </section>
 
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <h2>Certifications</h2>
-  <ul>
-    <li>Google Cybersecurity Certificate, Coursera, April 2025
-  </li>
-    <li>IBM SkillsBuild Managing Projects in a Digital Environment Certificate, IBM SkillsBuild, March 2026
-  </li>
-    <li>IBM SkillsBuild Developing and Deploying Software in the Cloud, IBM SkillsBuild, March 2026
-  </li>
-  </ul>
-</section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap two-col">
+      <h2>Projects</h2>
+      <div>
+        <ul class="projects">
 
-<!-- RESUME -->
-<section>
-  <h2>Resume</h2>
-  <a href="C:\Users\fedoc\Study_work\FSC\3rd_semester\olena_fedochynska.github.io\Resume 04-08-2026 (3).pdf" download class="btn">Download Resume</a>
-</section>
+          <li class="project featured">
+            <div class="project-head">
+              <h3>Git Gallery</h3>
+              <span class="tag-note">Team capstone</span>
+            </div>
+            <p>A web app for exploring a GitHub repository's commit history as a visual timeline, with a compare view and a way to choose which commits to capture. Built by a group for CSC325.</p>
+            <ul class="stack"><li>Python</li><li>Django</li><li>React</li><li>Vite</li></ul>
+            <a class="link" href="https://github.com/FrankB45/csc325-capstone" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
 
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <ul>
-    <li> <a href="https://www.linkedin.com/in/olena-fedochynska/" target="_blank">LinkedIn</a></li>
-    <li><a href="https://github.com/Greenish-Eyes" target="_blank">GitHub</a></li>
-  </ul>
-</section>
+          <li class="project">
+            <div class="project-head"><h3>Drone Flight Calculator</h3></div>
+            <p>A Python module that calculates drone flight time and validates its inputs. It has a 22-test pytest suite. I drafted the test skeletons with GitHub Copilot Chat, then rewrote the two that failed and confirmed that all tests pass.</p>
+            <ul class="stack"><li>Python</li><li>pytest</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/drone_flight_calculator" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+          <li class="project">
+            <div class="project-head"><h3>BMI Calculator</h3><span class="tag-note">CSC211</span></div>
+            <p>An interactive calculator with form inputs, radio buttons, and BMI logic for both metric (kg/m) and imperial (lb/ft) measurements. I designed the interface and handled the debugging, testing, and UI refinements.</p>
+            <ul class="stack"><li>Java</li><li>JavaFX</li><li>FXML</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/BMIcalculator" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+          <li class="project">
+            <div class="project-head"><h3>Tips Calculator</h3></div>
+            <p>An interactive calculator that handles both percentage tips and fixed amounts. It uses the same JavaFX and FXML structure as the BMI Calculator, with input handling and testing for each scenario.</p>
+            <ul class="stack"><li>Java</li><li>JavaFX</li><li>FXML</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/tipCalculatorProj" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+          <li class="project">
+            <div class="project-head"><h3>Loan Calculator</h3></div>
+            <p>A Java loan calculator set up as a Maven project with the Maven wrapper, so it builds the same way on any machine.</p>
+            <ul class="stack"><li>Java</li><li>Maven</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/LoanCalculator" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+          <li class="project">
+            <div class="project-head"><h3>GUI Basics</h3><span class="tag-note">CSC311</span></div>
+            <p>Coursework exercises on building desktop graphical interfaces in Java.</p>
+            <ul class="stack"><li>Java</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/CSC311_GUI_Basics" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+          <li class="project">
+            <div class="project-head"><h3>Snake Game</h3></div>
+            <p>A browser snake game I generated with Lovable, an AI app builder, to explore AI-assisted development.</p>
+            <ul class="stack"><li>TypeScript</li><li>Lovable</li></ul>
+            <a class="link" href="https://github.com/Greenish-Eyes/snake-game" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+
+        </ul>
+        <p class="more"><a class="link" href="https://github.com/Greenish-Eyes?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDUCATION -->
+  <section id="experience">
+    <div class="wrap two-col">
+      <h2>Experience and education</h2>
+      <div>
+        <ol class="timeline">
+          <li>
+            <p class="when">August 2025 to present</p>
+            <h3>Design and Printing Assistant</h3>
+            <p class="org">SignBoyz, Farmingdale, NY</p>
+            <p>Design signage, banners, decals, and promotional materials in Adobe Illustrator, Photoshop, and InDesign. Prepare files for print by adjusting layout, color profile, bleed, and resolution, and work with clients to turn their requirements into accurate proofs.</p>
+          </li>
+          <li>
+            <p class="when">Present</p>
+            <h3>B.S. in Computer Science</h3>
+            <p class="org">Farmingdale State College, Farmingdale, NY</p>
+            <p>Member of Women in Business, Support Women in Computing, and the Google Developer Group.</p>
+          </li>
+          <li>
+            <p class="when">Graduated May 2025</p>
+            <h3>A.A. in Liberal Arts, GPA 3.9</h3>
+            <p class="org">Nassau Community College, Garden City, NY</p>
+            <p>Dean's List and Phi Theta Kappa. Coursework included Programming I, Statistics, and Calculus I. Also worked as a student aide in the World Languages and Cultures Department.</p>
+          </li>
+          <li>
+            <p class="when">2020 to 2023</p>
+            <h3>Civil Engineering studies</h3>
+            <p class="org">Lviv Polytechnic National University, Ukraine</p>
+            <p>Studied structural mechanics and strength of materials before relocating to the United States. Earlier, I earned a Junior Specialist degree in Civil Engineering (equivalent to an associate degree) in 2020.</p>
+          </li>
+        </ol>
+
+        <h3 class="sub">Certifications</h3>
+        <ul class="certs">
+          <li><span>Google Cybersecurity Certificate</span><span class="meta">Coursera, April 2025</span></li>
+          <li><span>Managing Projects in a Digital Environment</span><span class="meta">IBM SkillsBuild, March 2026</span></li>
+          <li><span>Developing and Deploying Software in the Cloud</span><span class="meta">IBM SkillsBuild, March 2026</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap two-col">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <div><dt>Programming</dt><dd>Python, Java, SQL, JavaScript (React)</dd></div>
+        <div><dt>Software engineering</dt><dd>Data structures and algorithms, software development life cycle, Agile, CI/CD, cloud computing, business analysis, Git and GitHub</dd></div>
+        <div><dt>Design tools</dt><dd>Adobe Photoshop, Illustrator, InDesign, After Effects, Premiere Pro; Figma; InVision</dd></div>
+        <div><dt>Engineering software</dt><dd>AutoCAD, Revit, 3ds Max, Maya, Femap</dd></div>
+        <div><dt>Other tools</dt><dd>Microsoft Office, Audacity; Windows and macOS</dd></div>
+        <div><dt>Languages</dt><dd>English, Ukrainian, Russian</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap two-col">
+      <h2>Contact</h2>
+      <div class="prose">
+        <p>I'm open to internships and entry-level software roles. The best way to reach me is by email or LinkedIn.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:Fedochynska001@gmail.com">Fedochynska001@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/olena-fedochynska/" target="_blank" rel="noopener">linkedin.com/in/olena-fedochynska</a></li>
+          <li><a href="https://github.com/Greenish-Eyes" target="_blank" rel="noopener">github.com/Greenish-Eyes</a></li>
+        </ul>
+        <a class="btn primary" href="Olena_Fedochynska_Resume.pdf" download>Download resume (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
 
 <footer>
-  <p>© 2026 Olena Fedochynska</p>
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Olena Fedochynska</p>
+  </div>
 </footer>
 
 <script src="script.js"></script>
